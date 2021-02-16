@@ -4,6 +4,7 @@ import { BoardViewerComponent } from './board-viewer/board-viewer.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NxAccordionModule } from '@aposin/ng-aquila/accordion';
+import { NgxChessgroundModule } from 'ngx-chessground';
 
 @NgModule({
   bootstrap: [AppComponent],
@@ -12,7 +13,8 @@ import { NxAccordionModule } from '@aposin/ng-aquila/accordion';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    NxAccordionModule
+    NxAccordionModule,
+    NgxChessgroundModule
   ],
   providers: []
 })
