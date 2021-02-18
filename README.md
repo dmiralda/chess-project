@@ -15,9 +15,9 @@ Any other technology for DB or whatever is more than welcome.
 
 ## First steps
 
-- In order to get the games archive, the public chess.com API can be used. For example, the games played by dmiralda on April 2020 can be retrived by next endpoint:
+- In order to get the games archive, the public chess.com API can be used. For example, the games played by an user on April 2020 can be retrived by next endpoint:
 
-    https://api.chess.com/pub/player/dmiralda/games/2020/04
+    https://api.chess.com/pub/player/{username}/games/2020/04
 
 - Make a draft of the APP (How? UML? UI design?). The main idea is to retrieve games from chess.com (and or lichess.com) and then being able to select them in order to analyzed them. It would also be nice to have a dashboard to have an overall picture of the current user.
 
