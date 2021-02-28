@@ -12,6 +12,8 @@ Any other technology for DB or whatever is more than welcome.
 
 ## Dependencies
 - @mliebelt/pgn-viewer
+- ngx-chessground
+- https://github.com/nmrugg/stockfish.js ?
 
 ## First steps
 
